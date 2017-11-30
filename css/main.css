@@ -20,12 +20,13 @@ html {
 			}
 			.columns .circle-button {
 				position:absolute;
-				bottom:240px;
+				bottom:100px;
 			}
 			.columns > li h1 {
 				margin-bottom:0.75em;
 			}
 			.columns > li {
+				position:relative;
 				width:20%;
 				float:left;
 				height:2160px;
