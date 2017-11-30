@@ -1,5 +1,5 @@
 html {
-				font-family:'IBM Plex Sans';
+				font-family:'IBM Plex Sans Web';
 				font-weight:400;
 				background-color:black;
 			}
@@ -91,7 +91,7 @@ html {
 			}
 			.nav-button, .main-menu-button {
 				color:#FFF;
-				font-family:'IBM Plex Sans';
+				font-family:'IBM Plex Sans Web';
 				font-size:1.8625em;
 				line-height:1.2em;
 				position:relative;
@@ -188,7 +188,7 @@ html {
 			.circle-button.demo {
 				color:#FFF;
 				font-size:1em;
-				font-family:'IBM Plex Sans';
+				font-family:'IBM Plex Sans Web';
 			}
 			.subpage-content .demo, .subpage-content .topic-main{
 				position:absolute;
