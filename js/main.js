@@ -40,7 +40,7 @@ $(document).ready(function(){
 			})
 		})
 		$('.demo').unbind('click').bind('click',function(){
-			window.location.href = $(this).attr('data-href');
+			window.open($(this).attr('data-href'));
 		})
 		$('.menu').unbind('click').bind('click',function(){
 			$('.subactive').removeClass('subactive');
