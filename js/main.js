@@ -39,6 +39,12 @@ $(document).ready(function(){
 				}
 			})
 		})
+		$('.mlmodelscope-button').unbind('click').bind('click',function(e){
+			e.preventDefault();
+			window.open('http://mlmodelscope.org/');
+			window.open('http://mlmodelscope.org/swagger/');
+			window.open('http://52.44.160.49:16686/search');
+		})
 		$('.demo').unbind('click').bind('click',function(){
 			window.open($(this).attr('data-href'));
 		})

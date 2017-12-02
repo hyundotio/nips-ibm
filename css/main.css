@@ -14,6 +14,7 @@ html {
 
 			.columns h2, .page-content p {
 				line-height:1.33em;
+				font-weight:200;
 			}
 			.page-content p {
 				color:#848484;
@@ -171,12 +172,18 @@ html {
 				margin-bottom:1.25em;
 			}
 			.title-card h2{
+				display:none;
 				font-size:0.5em;
 				font-weight:500;
 				margin-bottom:0.40em;
 			}
+			.title-card > div:first-of-type h3{
+				font-weight:500;
+				width:auto;
+			}
 			.title-card h3 {
-				width:48%;
+				width:46%;
+				font-weight:200;
 				line-height:1.25em;
 			}
 			.title-card > div {
@@ -212,6 +219,7 @@ html {
 
 			}
 			.subpage-content .content-block h2 {
+				display:none;
 				font-size:0.66em;
 				margin-bottom:0.33em;
 				color:#848484;
@@ -219,6 +227,7 @@ html {
 			.subpage-content .content-block h3 {
 				font-size:1.865em;
 				width:66%;
+				font-weight:200;
 				line-height:1.125em;
 				margin-bottom:0.865em;
 			}
@@ -233,7 +242,7 @@ html {
 			}
 			.page-content .content-block p {
 				width:62%;
-				font-weight:400;
+				font-weight:200;
 				line-height:1.33em;
 			}
 			.main-menu .circle-button {
