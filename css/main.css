@@ -133,6 +133,9 @@ html {
 				width:40%;
 				height:2160px;
 			}
+			.block-menu li.single-block {
+				height:2160px;
+			}
 			.block-menu li {
 				height:1080px;
 				width:100%;
